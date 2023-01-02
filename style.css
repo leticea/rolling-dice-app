@@ -121,3 +121,27 @@ body {
               52px 0,
               0 52px;
 }
+
+.right::after {
+  margin: -30px 0 0 -30px;
+  box-shadow: 40px 0,
+              0 40px,
+              40px 40px;
+}
+
+.left::after {
+  margin: -35px 0 0 -35px;
+  box-shadow: 25px 25px,
+              50px 50px;
+}
+
+.roll {
+  cursor: pointer;
+  color: #388e3c;
+  margin-top: 60px;
+  padding: 6px 12px;
+  border-radius: 3px;
+  font-size: 16px;
+  border: 2px solid #388e3c;
+  transition: 0.4s;
+}
