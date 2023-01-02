@@ -92,3 +92,32 @@ body {
 .left {
   transform: rotateX(-90deg) translateZ(50px);
 }
+
+.front::after {
+  width: 30px;
+  height: 30px;
+  background: #f63330;
+  margin: -15px 0 0 -15px;
+}
+
+.back::after {
+  margin: -35px 0 0 -30px;
+  box-shadow: 40px 0,
+              0 25px,
+              40px 25px
+              0 50px
+              40px 50px;
+}
+
+.top::after {
+  margin: -30px 0 0 -30px;
+  box-shadow: 40px 40px;
+}
+
+.bottom::after {
+  margin: -36px 0 0 -36px;
+  box-shadow: 26px 26px,
+              52px 52px,
+              52px 0,
+              0 52px;
+}
