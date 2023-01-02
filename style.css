@@ -23,3 +23,17 @@ body {
   background: #eee;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
+
+.dice {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  transition: 1s ease;
+}
+
+@keyframes rolling {
+  50% {
+    transform: rotateX(455deg) rotateY(455deg);
+  }
+}
