@@ -145,3 +145,8 @@ body {
   border: 2px solid #388e3c;
   transition: 0.4s;
 }
+
+.roll:hover {
+  color: #fff;
+  background-color: #388e3c;
+}
